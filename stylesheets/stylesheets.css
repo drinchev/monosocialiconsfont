@@ -1,0 +1,1359 @@
+/*
+	Foundation framework configuration
+*/
+/*
+	Foundation
+*/
+/* line 17, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 160, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 165, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+html,
+body {
+  font-size: 16px;
+}
+
+/* line 168, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+body {
+  background: url('../images/background.png');
+  color: #222222;
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 1;
+  position: relative;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 184, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+img,
+object,
+embed {
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 187, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+object,
+embed {
+  height: 100%;
+}
+
+/* line 188, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+img {
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 194, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+#map_canvas img,
+#map_canvas embed,
+#map_canvas object,
+.map_canvas img,
+.map_canvas embed,
+.map_canvas object {
+  max-width: none !important;
+}
+
+/* line 199, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.left {
+  float: left;
+}
+
+/* line 200, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.right {
+  float: right;
+}
+
+/* line 201, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.text-left {
+  text-align: left;
+}
+
+/* line 202, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.text-right {
+  text-align: right;
+}
+
+/* line 203, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.text-center {
+  text-align: center;
+}
+
+/* line 204, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.text-justify {
+  text-align: justify;
+}
+
+/* line 205, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.hide {
+  display: none;
+}
+
+/* line 208, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+img {
+  display: block;
+}
+
+/* line 215, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+textarea {
+  height: auto;
+  min-height: 50px;
+}
+
+/* line 218, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+select {
+  width: 100%;
+}
+
+/* Grid HTML Classes */
+/* line 105, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+.row {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: 62.5em;
+  *zoom: 1;
+}
+/* line 152, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+/* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row:after {
+  clear: both;
+}
+/* line 109, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+.row .column,
+.row .columns {
+  position: relative;
+  padding-left: 0.9375em;
+  padding-right: 0.9375em;
+  width: 100%;
+}
+/* line 113, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+.row.collapse .column,
+.row.collapse .columns {
+  position: relative;
+  padding-left: 0;
+  padding-right: 0;
+}
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+.row .row {
+  width: auto;
+  margin-left: -0.9375em;
+  margin-right: -0.9375em;
+  margin-top: 0;
+  margin-bottom: 0;
+  max-width: none;
+  *zoom: 1;
+}
+/* line 152, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row .row:before, .row .row:after {
+  content: " ";
+  display: table;
+}
+/* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row .row:after {
+  clear: both;
+}
+/* line 117, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+.row .row.collapse {
+  width: auto;
+  margin: 0;
+  max-width: none;
+  *zoom: 1;
+}
+/* line 152, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row .row.collapse:before, .row .row.collapse:after {
+  content: " ";
+  display: table;
+}
+/* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/_foundation-global.scss */
+.row .row.collapse:after {
+  clear: both;
+}
+
+@media only screen {
+  /* line 124, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .column,
+  .row .columns {
+    position: relative;
+    padding-left: 0.9375em;
+    padding-right: 0.9375em;
+    float: left;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-3 {
+    position: relative;
+    width: 25%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-6 {
+    position: relative;
+    width: 50%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-9 {
+    position: relative;
+    width: 75%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+
+  /* line 127, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-12 {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+
+  /* line 131, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .small-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+
+  /* line 134, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"]:last-child {
+    float: right;
+  }
+
+  /* line 135, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  [class*="column"] + [class*="column"].end {
+    float: left;
+  }
+
+  /* line 138, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .column.small-centered,
+  .columns.small-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+/* Styles for screens that are atleast 768px; */
+@media only screen and (min-width: 48em) {
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-1 {
+    position: relative;
+    width: 8.33333%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-2 {
+    position: relative;
+    width: 16.66667%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-3 {
+    position: relative;
+    width: 25%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-4 {
+    position: relative;
+    width: 33.33333%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-5 {
+    position: relative;
+    width: 41.66667%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-6 {
+    position: relative;
+    width: 50%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-7 {
+    position: relative;
+    width: 58.33333%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-8 {
+    position: relative;
+    width: 66.66667%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-9 {
+    position: relative;
+    width: 75%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-10 {
+    position: relative;
+    width: 83.33333%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-11 {
+    position: relative;
+    width: 91.66667%;
+  }
+
+  /* line 145, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-12 {
+    position: relative;
+    width: 100%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-1 {
+    position: relative;
+    margin-left: 8.33333%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-2 {
+    position: relative;
+    margin-left: 16.66667%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-3 {
+    position: relative;
+    margin-left: 25%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-4 {
+    position: relative;
+    margin-left: 33.33333%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-5 {
+    position: relative;
+    margin-left: 41.66667%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-6 {
+    position: relative;
+    margin-left: 50%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-7 {
+    position: relative;
+    margin-left: 58.33333%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-8 {
+    position: relative;
+    margin-left: 66.66667%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-9 {
+    position: relative;
+    margin-left: 75%;
+  }
+
+  /* line 149, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .row .large-offset-10 {
+    position: relative;
+    margin-left: 83.33333%;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-2 {
+    position: relative;
+    left: 16.66667%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-2 {
+    position: relative;
+    right: 16.66667%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-3 {
+    position: relative;
+    left: 25%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-3 {
+    position: relative;
+    right: 25%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-4 {
+    position: relative;
+    left: 33.33333%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-4 {
+    position: relative;
+    right: 33.33333%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-5 {
+    position: relative;
+    left: 41.66667%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-5 {
+    position: relative;
+    right: 41.66667%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-6 {
+    position: relative;
+    left: 50%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-6 {
+    position: relative;
+    right: 50%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-7 {
+    position: relative;
+    left: 58.33333%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-7 {
+    position: relative;
+    right: 58.33333%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-8 {
+    position: relative;
+    left: 66.66667%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-8 {
+    position: relative;
+    right: 66.66667%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-9 {
+    position: relative;
+    left: 75%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-9 {
+    position: relative;
+    right: 75%;
+    left: auto;
+  }
+
+  /* line 153, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .push-10 {
+    position: relative;
+    left: 83.33333%;
+    right: auto;
+  }
+
+  /* line 154, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .pull-10 {
+    position: relative;
+    right: 83.33333%;
+    left: auto;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-2 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-2 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-3 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-3 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-4 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-4 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-5 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-5 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-6 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-6 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-7 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-7 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-8 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-8 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-9 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-9 {
+    right: inherit;
+  }
+
+  /* line 158, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-push-10 {
+    left: inherit;
+  }
+
+  /* line 159, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .small-pull-10 {
+    right: inherit;
+  }
+
+  /* line 163, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_grid.scss */
+  .column.large-centered,
+  .columns.large-centered {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+}
+/* Foundation Visibility HTML Classes */
+@media only screen {
+  /* line 9, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-small,
+  .show-for-medium-down,
+  .show-for-large-down {
+    display: inherit !important;
+  }
+
+  /* line 15, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-medium,
+  .show-for-medium-up,
+  .show-for-large,
+  .show-for-large-up,
+  .show-for-xlarge {
+    display: none !important;
+  }
+
+  /* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-medium,
+  .hide-for-medium-up,
+  .hide-for-large,
+  .hide-for-large-up,
+  .hide-for-xlarge {
+    display: inherit !important;
+  }
+
+  /* line 25, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-small,
+  .hide-for-medium-down,
+  .hide-for-large-down {
+    display: none !important;
+  }
+}
+/* Medium Displays: 768px - 1279px */
+@media only screen and (min-width: 48em) {
+  /* line 33, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-medium,
+  .show-for-medium-down,
+  .show-for-medium-up,
+  .show-for-large-down {
+    display: inherit !important;
+  }
+
+  /* line 37, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-small,
+  .show-for-large,
+  .show-for-large-up {
+    display: none !important;
+  }
+
+  /* line 41, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-small,
+  .hide-for-large,
+  .hide-for-large-up {
+    display: inherit !important;
+  }
+
+  /* line 46, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-medium,
+  .hide-for-medium-down,
+  .hide-for-medium-up,
+  .hide-for-large-down {
+    display: none !important;
+  }
+}
+/* Large Displays: 1280px - 1440px */
+@media only screen and (min-width: 80em) {
+  /* line 55, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-medium-down,
+  .show-for-medium-up,
+  .show-for-large,
+  .show-for-large-down,
+  .show-for-large-up {
+    display: inherit !important;
+  }
+
+  /* line 58, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-small,
+  .show-for-medium {
+    display: none !important;
+  }
+
+  /* line 61, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-small,
+  .hide-for-medium {
+    display: inherit !important;
+  }
+
+  /* line 67, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-medium-down,
+  .hide-for-medium-up,
+  .hide-for-large,
+  .hide-for-large-down,
+  .hide-for-large-up {
+    display: none !important;
+  }
+}
+/* X-Large Displays: 1400px and up */
+@media only screen and (min-width: 90em) {
+  /* line 76, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-medium-down,
+  .show-for-medium-up,
+  .show-for-large-down,
+  .show-for-large-up {
+    display: inherit !important;
+  }
+
+  /* line 80, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-small,
+  .show-for-medium,
+  .show-for-large {
+    display: none !important;
+  }
+
+  /* line 84, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-small,
+  .hide-for-medium,
+  .hide-for-large {
+    display: inherit !important;
+  }
+
+  /* line 89, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-medium-down,
+  .hide-for-medium-up,
+  .hide-for-large-down,
+  .hide-for-large-up {
+    display: none !important;
+  }
+}
+/* Orientation targeting */
+/* line 95, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.show-for-landscape,
+.hide-for-portrait {
+  display: inherit !important;
+}
+
+/* line 97, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.hide-for-landscape,
+.show-for-portrait {
+  display: none !important;
+}
+
+@media screen and (orientation: landscape) {
+  /* line 101, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-landscape,
+  .hide-for-portrait {
+    display: inherit !important;
+  }
+
+  /* line 103, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-landscape,
+  .show-for-portrait {
+    display: none !important;
+  }
+}
+@media screen and (orientation: portrait) {
+  /* line 108, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .show-for-portrait,
+  .hide-for-landscape {
+    display: inherit !important;
+  }
+
+  /* line 110, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+  .hide-for-portrait,
+  .show-for-landscape {
+    display: none !important;
+  }
+}
+/* Touch-enabled device targeting */
+/* line 114, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.show-for-touch {
+  display: none !important;
+}
+
+/* line 115, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.hide-for-touch {
+  display: inherit !important;
+}
+
+/* line 116, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.touch .show-for-touch {
+  display: inherit !important;
+}
+
+/* line 117, ../../../../../../../Library/Ruby/Gems/1.8/gems/zurb-foundation-4.0.3/scss/foundation/components/_visibility.scss */
+.touch .hide-for-touch {
+  display: none !important;
+}
+
+/*
+	Helper utilities
+*/
+/*
+	Fonts
+*/
+@font-face {
+  font-family: "Mono Social Icons Font";
+  src: url('../fonts/MonoSocialIconsFont-1.00.eot');
+  src: url('../fonts/MonoSocialIconsFont-1.00.eot?#iefix') format('eot'), url('../fonts/MonoSocialIconsFont-1.00.woff') format('woff'), url('../fonts/MonoSocialIconsFont-1.00.ttf') format('truetype'), url('../fonts/MonoSocialIconsFont-1.00.svg#MonoSocialIconsFont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+	Basic Layout
+*/
+/* line 38, ../../scss/stylesheets.scss */
+body {
+  font-family: "Marvel";
+  text-align: center;
+  color: #fef5f3;
+}
+
+/* line 44, ../../scss/stylesheets.scss */
+a {
+  color: #fef5f3;
+  text-decoration: none;
+}
+
+/* line 49, ../../scss/stylesheets.scss */
+input, textarea {
+  color: #fef5f3;
+}
+
+/* line 51, ../../scss/stylesheets.scss */
+hr {
+  height: 0px;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid rgba(254, 245, 243, 0.4);
+}
+
+/* line 53, ../../scss/stylesheets.scss */
+.hidden {
+  display: none;
+}
+
+/* line 55, ../../scss/stylesheets.scss */
+.symbol {
+  font-family: "Mono Social Icons Font";
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 60px;
+}
+
+/*
+  Header
+*/
+/* line 64, ../../scss/stylesheets.scss */
+header {
+  padding: 60px 0 65px 0;
+}
+/* line 66, ../../scss/stylesheets.scss */
+header h1 {
+  text-shadow: -1px -1px 0 #fef5f3, 1px -1px 0 #fef5f3, -1px 1px 0 #fef5f3, 1px 1px 0 #fef5f3;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/*
+  Sections
+*/
+/* line 78, ../../scss/stylesheets.scss */
+section#input {
+  width: 100%;
+  height: 110px;
+  background: rgba(254, 245, 243, 0.15);
+}
+/* line 82, ../../scss/stylesheets.scss */
+section#input:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 18px solid transparent;
+  border-right: 18px solid transparent;
+  border-bottom: 18px solid rgba(254, 245, 243, 0.15);
+  left: 50%;
+  margin-left: -18px;
+  margin-top: -18px;
+}
+/* line 91, ../../scss/stylesheets.scss */
+section#input input {
+  position: relative;
+  width: 100%;
+  margin: 20px 0;
+  background: none;
+  border: none;
+  font-family: "Mono Social Icons Font";
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-size: 60px;
+  text-align: center;
+}
+/* line 24, ../../scss/partials/_utils.scss */
+section#input input:focus, section#input input:active {
+  outline: none;
+}
+
+/* line 104, ../../scss/stylesheets.scss */
+nav.main {
+  margin: 40px auto 40px auto;
+  width: 420px;
+  height: 115px;
+}
+/* line 108, ../../scss/stylesheets.scss */
+nav.main a {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  float: left;
+  width: 100px;
+  height: 115px;
+  margin: 0px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+}
+/* line 117, ../../scss/stylesheets.scss */
+nav.main a div.figure {
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  width: 82px;
+  height: 82px;
+  position: relative;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+/* line 122, ../../scss/stylesheets.scss */
+nav.main a div.figure:after {
+  content: '';
+  display: block;
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 6px;
+  width: 70px;
+  height: 70px;
+  background: rgba(0, 0, 0, 0.4);
+}
+/* line 132, ../../scss/stylesheets.scss */
+nav.main a.circle div.figure, nav.main a.circle div.figure:after {
+  border-radius: 1000px;
+}
+/* line 133, ../../scss/stylesheets.scss */
+nav.main a.rounded div.figure {
+  border-radius: 18px;
+}
+/* line 133, ../../scss/stylesheets.scss */
+nav.main a.rounded div.figure:after {
+  border-radius: 15px;
+}
+/* line 134, ../../scss/stylesheets.scss */
+nav.main a:hover div.figure, nav.main a.selected div.figure {
+  background: rgba(254, 245, 243, 0.15);
+}
+/* line 136, ../../scss/stylesheets.scss */
+nav.main a.regular div.figure {
+  margin-top: -8px;
+  margin-left: -3px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 52px 90.1px 52px;
+  border-color: transparent transparent transparent transparent;
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+/* line 141, ../../scss/stylesheets.scss */
+nav.main a.regular div.figure:after {
+  margin-left: -40px;
+  margin-top: 13px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 40px 70px 40px;
+  border-color: transparent transparent rgba(0, 0, 0, 0.4) transparent;
+  background: none;
+}
+/* line 148, ../../scss/stylesheets.scss */
+nav.main a.regular:hover div.figure, nav.main a.regular.selected div.figure {
+  background: none;
+  border-bottom-color: rgba(254, 245, 243, 0.15);
+}
+/* line 150, ../../scss/stylesheets.scss */
+nav.main a span.label {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* line 159, ../../scss/stylesheets.scss */
+section#icons {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+/* line 163, ../../scss/stylesheets.scss */
+section#icons div.icon {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 164, ../../scss/stylesheets.scss */
+section#icons span {
+  display: block;
+}
+/* line 165, ../../scss/stylesheets.scss */
+section#icons span.symbol {
+  margin-right: 10px;
+  margin-left: 50px;
+  float: left;
+}
+/* line 166, ../../scss/stylesheets.scss */
+section#icons span.name {
+  padding-top: 5px;
+  font-size: 24px;
+}
+/* line 167, ../../scss/stylesheets.scss */
+section#icons span.unicode {
+  padding-top: 4px;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+/* line 170, ../../scss/stylesheets.scss */
+section#about {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: left;
+}
+/* line 174, ../../scss/stylesheets.scss */
+section#about h2 {
+  margin: 20px 0 20px 60px;
+  font-size: 25px;
+  font-weight: bold;
+}
+/* line 178, ../../scss/stylesheets.scss */
+section#about h2.left {
+  float: left;
+}
+/* line 180, ../../scss/stylesheets.scss */
+section#about a.button {
+  letter-spacing: 1px;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: rgba(254, 245, 243, 0.15);
+  padding: 15px;
+  margin: 0 0 10px 45px;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 190, ../../scss/stylesheets.scss */
+section#about a.button:hover {
+  background: rgba(254, 245, 243, 0.3);
+}
+/* line 191, ../../scss/stylesheets.scss */
+section#about a.button.selected {
+  background: rgba(254, 245, 243, 0.4);
+}
+/* line 193, ../../scss/stylesheets.scss */
+section#about nav.tabs {
+  margin: 18px 0 20px 0;
+  float: right;
+}
+/* line 196, ../../scss/stylesheets.scss */
+section#about nav.tabs a.button {
+  margin: 0 0 0 5px;
+  padding: 5px 10px;
+}
+/* line 201, ../../scss/stylesheets.scss */
+section#about div.code {
+  margin-left: 50px;
+  padding: 15px;
+  background: rgba(116, 61, 50, 0.2);
+  clear: both;
+}
+/* line 207, ../../scss/stylesheets.scss */
+section#about textarea {
+  width: 100%;
+  height: 200px;
+  background: transparent;
+  border: 0;
+  font-family: 'Droid Sans Mono';
+  resize: none;
+}
+/* line 24, ../../scss/partials/_utils.scss */
+section#about textarea:focus, section#about textarea:active {
+  outline: none;
+}
+/* line 216, ../../scss/stylesheets.scss */
+section#about p {
+  margin-left: 50px;
+  margin-bottom: 10px;
+  line-height: 20px;
+}
+/* line 220, ../../scss/stylesheets.scss */
+section#about p strong {
+  font-weight: bold;
+}
+/* line 221, ../../scss/stylesheets.scss */
+section#about p a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+/* line 224, ../../scss/stylesheets.scss */
+section#about div.result .symbol {
+  margin: 0;
+  font-size: 20px;
+}
+/* line 225, ../../scss/stylesheets.scss */
+section#about div.result a.symbol {
+  font-size: 14px;
+  background: rgba(116, 61, 50, 0.2);
+  padding: 5px 6px 3px 5px;
+  font-weight: normal;
+  text-decoration: none;
+}
+/* line 231, ../../scss/stylesheets.scss */
+section#about div.result a.symbol:before {
+  font-family: "Mono Social Icons Font";
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  content: attr(title);
+  margin-right: 0.3em;
+  font-size: 130%;
+}
+/* line 238, ../../scss/stylesheets.scss */
+section#about div.result p {
+  padding: 5px 0;
+  margin: 0;
+}
+
+/*
+  Footer
+*/
+/* line 247, ../../scss/stylesheets.scss */
+footer {
+  padding: 20px 0 50px 0;
+}
+/* line 249, ../../scss/stylesheets.scss */
+footer a {
+  font-weight: bold;
+  text-decoration: underline;
+}
