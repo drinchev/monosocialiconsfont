@@ -76,7 +76,7 @@ Or if you work with [Compass](http://compass-style.org/), then you can use
 
 ## Special Thanks
 
-This font is based on [Mono Social Icons](http://icondock.com/free/mono-social-icons) by [Double-J Design](http://www.doublejdesign.co.uk/). It adds two more icons to the set : __Google Plus__ and __GitHub Alternative Icon__
+This font is based on [Mono Social Icons](http://icondock.com/free/mono-social-icons) by [IconDock](http://icondock.com/) and [Double-J Design](http://www.doublejdesign.co.uk/). It adds two more icons to the set : __Google Plus__ and __GitHub Alternative Icon__
 
 ## License
 
