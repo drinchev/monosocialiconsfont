@@ -967,8 +967,8 @@ select {
 */
 @font-face {
   font-family: "Mono Social Icons Font";
-  src: url('../fonts/MonoSocialIconsFont-1.00.eot');
-  src: url('../fonts/MonoSocialIconsFont-1.00.eot?#iefix') format('eot'), url('../fonts/MonoSocialIconsFont-1.00.woff') format('woff'), url('../fonts/MonoSocialIconsFont-1.00.ttf') format('truetype'), url('../fonts/MonoSocialIconsFont-1.00.svg#MonoSocialIconsFont') format('svg');
+  src: url('../fonts/MonoSocialIconsFont-1.10.eot');
+  src: url('../fonts/MonoSocialIconsFont-1.10.eot?#iefix') format('eot'), url('../fonts/MonoSocialIconsFont-1.10.woff') format('woff'), url('../fonts/MonoSocialIconsFont-1.10.ttf') format('truetype'), url('../fonts/MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
   font-weight: normal;
   font-style: normal;
 }
