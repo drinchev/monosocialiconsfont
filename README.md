@@ -20,12 +20,12 @@ This font comes with included _liga_ feature for letter substitution of your ico
 
     @font-face {
         font-family: 'Mono Social Icons Font';
-        src: url('MonoSocialIconsFont-1.00.eot');
-        src: url('MonoSocialIconsFont-1.00.eot?#iefix') format('embedded-opentype'),
-             url('MonoSocialIconsFont-1.00.woff') format('woff'),
-             url('MonoSocialIconsFont-1.00.ttf') format('truetype'),
-             url('MonoSocialIconsFont-1.00.svg#MonoSocialIconsFont') format('svg');
-        src: url('MonoSocialIconsFont-1.00.ttf') format('truetype');
+        src: url('MonoSocialIconsFont-1.10.eot');
+        src: url('MonoSocialIconsFont-1.10.eot?#iefix') format('embedded-opentype'),
+             url('MonoSocialIconsFont-1.10.woff') format('woff'),
+             url('MonoSocialIconsFont-1.10.ttf') format('truetype'),
+             url('MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont') format('svg');
+        src: url('MonoSocialIconsFont-1.10.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -52,7 +52,7 @@ This font comes with included _liga_ feature for letter substitution of your ico
 
 Or if you work with [Compass](http://compass-style.org/), then you can use
 
-    @include font-face("Mono Social Icons Font", font-files("MonoSocialIconsFont-1.00.woff", "MonoSocialIconsFont-1.00.ttf", "MonoSocialIconsFont-1.00.svg#MonoSocialIconsFont"), "MonoSocialIconsFont-1.00.eot", normal, normal);
+    @include font-face("Mono Social Icons Font", font-files("MonoSocialIconsFont-1.10.woff", "MonoSocialIconsFont-1.10.ttf", "MonoSocialIconsFont-1.10.svg#MonoSocialIconsFont"), "MonoSocialIconsFont-1.10.eot", normal, normal);
 
     .symbol, a.symbol:before {
         font-family: 'Mono Social Icons Font';
@@ -73,6 +73,14 @@ Or if you work with [Compass](http://compass-style.org/), then you can use
         margin-right: 0.3em;
         font-size: 130%;
     }
+
+## Changelog
+
+### Version 1.10 ( 21 May 2013 )
+
+ - updated twitter bird icon
+ - added instagram icon
+ - minor fixes of some ligatures
 
 ## Special Thanks
 
