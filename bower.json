@@ -1,0 +1,18 @@
+{
+    "name": "monosocialiconsfont",
+    "version": "1.1.0",
+    "keywords": [],
+    "homepage": "http://drinchev.github.io/monosocialiconsfont/",
+    "main": [
+        "./monosocialiconsfont.css",
+        "./MonoSocialIconsFont*"
+    ],
+    "ignore": [
+        "sample project",
+        "*.md"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+    }
+}
